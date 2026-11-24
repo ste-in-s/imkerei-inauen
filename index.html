@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Imkerei Inauen</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f0c531;
+    color: #2b2b2b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.logo {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    display: block;
+    margin: 0 auto 35px auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #222;
+}
+
+.info {
+    margin: 24px 0;
+}
+
+.label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+    margin-bottom: 6px;
+}
+
+.value {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+a {
+    color: #7d5a0b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+    .card {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .value {
+        font-size: 1rem;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="logo.jpg" alt="Imkerei Inauen" class="logo">
+
+    <h1>Imkerei Inauen</h1>
+
+    <div class="info">
+        <div class="label">Adresse</div>
+        <div class="value">
+            Gampisböhl<br>
+            Bergerstrasse 16<br>
+            9057 Weissbad
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="label">Telefon</div>
+        <div class="value">
+            <a href="tel:+41763209093">
+                +41 76 320 90 93
+            </a>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="label">E-Mail</div>
+        <div class="value">
+            <a href="mailto:in.auen@bluewin.ch">
+                in.auen@bluewin.ch
+            </a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
